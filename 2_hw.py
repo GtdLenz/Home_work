@@ -1,7 +1,15 @@
 def task_1(f:int,g: float, h:str, i: list, k: bool)->list:
     return f, g, h, i, k
-print(task_1(2, 2.3,'Пока', [4,5,6],False))
-
+f = 1
+g = 1.1
+h = 'Строка'
+i = [1, 2, 3]
+k = True
+print(f, "относится к типу", type(f))
+print(g, "относится к типу", type(g))
+print(h, "относится к типу", type(h))
+print(i, "относится к типу", type(i))
+print(k, "относится к типу", type(k))
 
 def task_2(a: list) -> list:
     return a[0:3]
